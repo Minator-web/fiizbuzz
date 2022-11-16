@@ -7,6 +7,8 @@ class  Fizzbuzz(unittest.TestCase):
         self.assertEqual(FizzBuzz(3),"buzz")
     def test_a(self):
         self.assertEqual(FizzBuzz(5),"fizz")
+    def test_f(self):
+        self.assertEqual(FizzBuzz(15),"fizzbuzz")
 
 
 def FizzBuzz(a):

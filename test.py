@@ -20,5 +20,7 @@ def FizzBuzz(a):
         return "buzz"
     elif(a%5 == 0):
         return "fizz"
+    else:
+        return "none"
    
 unittest.main()
